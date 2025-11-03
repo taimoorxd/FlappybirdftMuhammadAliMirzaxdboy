@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fullscreen Jump Game</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+
+</head>
+<body>
+  <div id="overlay">Score: <span id="score">0</span></div>
+  <div id="overlay">
+  Score: <span id="score">0</span> |
+  Best: <span id="bestScore">0</span>
+</div>
+
+  <div id="message" style="display:none;">
+    <h1 id="status">Game Over</h1>
+    <button id="restart">Restart</button>
+  </div>
+
+
+
+  <div id="startScreen">
+  <h1>Click or Press Space to Start</h1>
+</div>
+<div id="levelUp">Level Up!</div>
+
+
+  <canvas id="game"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
